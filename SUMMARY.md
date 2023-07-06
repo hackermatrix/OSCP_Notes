@@ -5,3 +5,4 @@
 ## Windows
 
 * [Manual Enum (CMD)](windows/windows-enum-cmd.md)
+* [Automated Enumeration Scripts](windows/automated-enumeration-scripts.md)
