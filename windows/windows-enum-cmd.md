@@ -26,6 +26,8 @@ wmic qfe get Caption,Description,HotFixID,InstalledOn
 wmic localdisk get caption
 ```
 
+###
+
 ### 2. User Enumeration:
 
 #### User Info:
@@ -64,3 +66,51 @@ net user <USER_NAME>
 net localgroup
 ```
 
+* For a specific know group name.
+
+```batch
+net localgroup <GROUP_NAME>
+```
+
+###
+
+### 3. Network Enumeration:
+
+#### ARP Table:
+
+```batch
+arp -a
+```
+
+#### Routing Table:
+
+```batch
+route print
+```
+
+#### Listening Ports:
+
+```batch
+netstat -ano
+```
+
+###
+
+### 4. Antivirus and Firewall Enumeration:
+
+```batch
+#Using the Windows Sevice Control
+sc query windefend
+
+#We can also list all services running using the sc
+sc queryex type= service
+
+#For firewall information
+netsh advfirewall firewall dump
+             OR
+netsh firewall show state
+
+#For firewall configurations
+netsh firewall show config
+
+```

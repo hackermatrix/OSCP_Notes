@@ -4,4 +4,4 @@
 
 ## Windows
 
-* [Manual Enum (CMD)](windows/manual-enum-cmd.md)
+* [Manual Enum (CMD)](windows/windows-enum-cmd.md)
