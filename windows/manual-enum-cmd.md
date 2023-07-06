@@ -1,4 +1,4 @@
-# Windows enum (CMD)
+# Manual Enum (CMD)
 
 ### 1. System Enumeration:
 
@@ -24,5 +24,43 @@ wmic qfe get Caption,Description,HotFixID,InstalledOn
 
 ```batch
 wmic localdisk get caption
+```
+
+### 2. User Enumeration:
+
+#### User Info:
+
+```batch
+whoami
+```
+
+#### User Privilege:
+
+```batch
+whoami /priv
+```
+
+#### Group Info:
+
+```batch
+whoami /groups
+```
+
+#### User Accounts
+
+```batch
+net user
+```
+
+#### User Info:
+
+```batch
+net user <USER_NAME>
+```
+
+#### Group Info:
+
+```batch
+net localgroup
 ```
 
