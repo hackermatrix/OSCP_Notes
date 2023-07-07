@@ -1,6 +1,6 @@
 # Table of contents
 
-* [OSCP\_Notes](README.md)
+* [Introduction](README.md)
 
 ## Windows
 
