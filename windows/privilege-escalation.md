@@ -2,7 +2,7 @@
 description: Escalating to Root User
 ---
 
-# Privilege Escalation
+# 📈 Privilege Escalation
 
 ### 1. Saved Passwords:
 
@@ -57,4 +57,6 @@ reg query HKLM /f password /t REG_SZ /s
 reg query HKCU /f password /t REG_SZ /s
 ```
 
-\
+### 2. WSL:
+
+### &#x20;
