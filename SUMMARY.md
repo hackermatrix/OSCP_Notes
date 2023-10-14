@@ -5,6 +5,7 @@
 ## Services
 
 * [1521 - ORACLE\_DB](services/1521-oracle\_db.md)
+* [LDAP](services/ldap.md)
 
 ## Windows
 
