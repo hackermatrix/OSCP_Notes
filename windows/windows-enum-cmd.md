@@ -1,4 +1,4 @@
-# Manual Enum (CMD)
+# 👨🔧 Manual Enum (CMD)
 
 ### 1. System Enumeration:
 

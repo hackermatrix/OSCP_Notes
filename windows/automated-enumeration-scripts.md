@@ -1,4 +1,4 @@
-# Automated Enumeration Scripts
+# 👨💻 Automated Enumeration Scripts
 
 ### Power Up:
 
