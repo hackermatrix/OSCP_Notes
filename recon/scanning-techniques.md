@@ -84,7 +84,7 @@ nmap -A [target]
 nmap -6 [target]
 ```
 
-### Port Scanning Options
+## A. Port Scanning Options
 
 #### Perform a Fast Scan
 
@@ -152,7 +152,7 @@ nmap -sV --version-trace [target]
 nmap -sR [target]
 ```
 
-### Discovery Options
+## B. Discovery Options
 
 #### Host Discovery
 
@@ -311,7 +311,7 @@ Nmap Switch Description
 
 Not specifying a T value will default to -T3, or normal speed.
 
-### Firewall Evasion Techniques
+## C. Firewall Evasion Techniques
 
 ```markdown
 Nmap Switch Description
@@ -373,7 +373,7 @@ nmap --spoof-mac [MAC|0|vendor] [target]
 nmap --badsum [target]
 ```
 
-### Advanced Scanning Functions
+## D. Advanced Scanning Functions
 
 #### TCP SYN Scan
 
@@ -443,7 +443,7 @@ nmap --send-eth [target]
 nmap --send-ip [target]
 ```
 
-### Timing Options
+## E. Timing Options
 
 #### Timing Templates
 
