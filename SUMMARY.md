@@ -2,7 +2,7 @@
 
 * [Introduction](README.md)
 
-## Recon
+## 🕵 Recon
 
 * [Scanning Techniques](recon/scanning-techniques.md)
 
