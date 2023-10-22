@@ -6,6 +6,10 @@
 
 * [Scanning Techniques](recon/scanning-techniques.md)
 
+## 🪜 Pivoting
+
+* [Port Forwarding](pivoting/port-forwarding.md)
+
 ## 🌐 Service Enumeration
 
 * [1521 - ORACLE\_DB](service-enumeration/1521-oracle\_db.md)
@@ -19,5 +23,3 @@
 * [📈 Privilege Escalation](windows/privilege-escalation.md)
 
 ## 📁 Active Directory
-
-* [Port Forwarding](active-directory/port-forwarding.md)
