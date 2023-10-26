@@ -28,4 +28,6 @@
 
 ## 📁 Active Directory
 
+* [Post Exploitation](active-directory/post-exploitation/README.md)
+  * [Power View](active-directory/post-exploitation/power-view.md)
 * [Persistence through Credentials](active-directory/persistence-through-credentials.md)
