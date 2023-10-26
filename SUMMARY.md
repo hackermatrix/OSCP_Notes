@@ -6,6 +6,11 @@
 
 * [Scanning Techniques](recon/scanning-techniques.md)
 
+***
+
+* [🗃 File Transferring](file-transferring.md)
+* [Page](page.md)
+
 ## 🪜 Pivoting
 
 * [Port Forwarding](pivoting/port-forwarding.md)
