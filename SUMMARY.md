@@ -30,4 +30,5 @@
 
 * [Post Exploitation](active-directory/post-exploitation/README.md)
   * [Power View](active-directory/post-exploitation/power-view.md)
-* [Persistence through Credentials](active-directory/persistence-through-credentials.md)
+* [Persistance](active-directory/persistance/README.md)
+  * [Persistence through Credentials](active-directory/persistance/persistence-through-credentials.md)
