@@ -28,3 +28,5 @@
 * [📈 Privilege Escalation](windows/privilege-escalation.md)
 
 ## 📁 Active Directory
+
+* [Persistence through Credentials](active-directory/persistence-through-credentials.md)
