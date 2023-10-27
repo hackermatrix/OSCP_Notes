@@ -28,7 +28,7 @@
 
 ## 📁 Active Directory
 
-* [Post Exploitation](active-directory/post-exploitation/README.md)
-  * [Power View](active-directory/post-exploitation/power-view.md)
+* [Post Compro Enum](active-directory/post-compro-enum/README.md)
+  * [Power View](active-directory/post-compro-enum/power-view.md)
 * [Persistance](active-directory/persistance/README.md)
   * [Persistence through Credentials](active-directory/persistance/persistence-through-credentials.md)

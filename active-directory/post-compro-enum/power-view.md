@@ -44,7 +44,7 @@ Get-NetDomainController -Domain mydomain.local #Get Domain Controller
 
 #### 2. Users, Groups and Computers
 
-<pre><code><strong># Users
+<pre class="language-powershell"><code class="lang-powershell"><strong># Users
 </strong>Get-NetUser #Get users with several (not all) properties
 Get-NetUser | select -ExpandProperty samaccountname #List all usernames
 Get-NetUser -UserName student107 #Get info about a user
@@ -97,7 +97,7 @@ Get-NetRDPSession -ComputerName &#x3C;servername> #List RDP sessions inside a ho
 
 3. **Shared Files and Folders**
 
-```
+```powershell
 Get-NetFileServer #Search file servers. Lot of users use to be logged in this kind of servers
 Find-DomainShare -CheckShareAccess #Search readable shares
 Find-InterestingDomainShareFile #Find interesting files, can use filters
@@ -105,7 +105,7 @@ Find-InterestingDomainShareFile #Find interesting files, can use filters
 
 4. **GPOs & OUs**
 
-<pre><code><strong>#GPO
+<pre class="language-powershell"><code class="lang-powershell"><strong>#GPO
 </strong>Get-NetGPO #Get all policies with details
 Get-NetGPO | select displayname #Get the names of the policies
 Get-NetGPO -ComputerName &#x3C;servername> #Get the policy applied in a computer
