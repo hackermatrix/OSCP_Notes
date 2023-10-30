@@ -117,5 +117,5 @@ Command to add low-privileged AD user to the first group we created
 PS C:\Users\Administrator.ZA>Add-ADGroupMember -Identity "<username>_nestgroup1" -Members "<low privileged username>"
 ```
 
-### Persistence through ACL
+
 
