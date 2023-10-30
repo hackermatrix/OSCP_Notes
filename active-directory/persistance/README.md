@@ -2,6 +2,6 @@
 
 1. **Through Credentials**
 
-{% content-ref url="persistence-through-credentials.md" %}
-[persistence-through-credentials.md](persistence-through-credentials.md)
+{% content-ref url="persisting-active-directory.md" %}
+[persisting-active-directory.md](persisting-active-directory.md)
 {% endcontent-ref %}
