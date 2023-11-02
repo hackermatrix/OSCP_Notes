@@ -32,5 +32,6 @@
 * [ Credentials Harvesting](active-directory/credentials-harvesting.md)
 * [Post Compro Enum](active-directory/post-compro-enum/README.md)
   * [Power View](active-directory/post-compro-enum/power-view.md)
+  * [🔥 Kerberoasting](active-directory/post-compro-enum/kerberoasting.md)
 * [Persistance](active-directory/persistance/README.md)
   * [Persisting Active Directory](active-directory/persistance/persisting-active-directory.md)
