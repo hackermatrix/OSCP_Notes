@@ -59,4 +59,3 @@ reg query HKCU /f password /t REG_SZ /s
 
 ### 2. WSL:
 
-### &#x20;
