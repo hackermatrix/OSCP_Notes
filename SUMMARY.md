@@ -36,3 +36,7 @@
   * [🔥 Kerberoasting](active-directory/post-compro-enum/kerberoasting.md)
 * [Persistance](active-directory/persistance/README.md)
   * [Persisting Active Directory](active-directory/persistance/persisting-active-directory.md)
+
+## OSINT
+
+* [Resources](osint/resources.md)
