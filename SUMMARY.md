@@ -25,6 +25,7 @@
 * [👨💻 Automated Enumeration Scripts](windows/automated-enumeration-scripts.md)
 * [🔍 Post Exploitation](windows/post-exploitation.md)
 * [📈 Privilege Escalation](windows/privilege-escalation/README.md)
+  * [Runas](windows/privilege-escalation/runas.md)
   * [🥔 Token Impersonation and Potatoes](windows/privilege-escalation/token-impersonation-and-potatoes.md)
 
 ## 📁 Active Directory
