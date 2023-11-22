@@ -18,6 +18,7 @@
 
 * [1521 - ORACLE\_DB](service-enumeration/1521-oracle\_db.md)
 * [LDAP](service-enumeration/ldap.md)
+* [161 - SNMP](service-enumeration/161-snmp.md)
 
 ## 🪟 Windows
 
