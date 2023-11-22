@@ -61,3 +61,14 @@ This is not possible in main mode as it uses an encrypted hash along with a six 
 {% embed url="https://www.techtarget.com/searchsecurity/definition/Internet-Key-Exchange" %}
 
 {% embed url="https://book.hacktricks.xyz/network-services-pentesting/ipsec-ike-vpn-pentesting" %}
+
+#### References (For using Ipsec using strongswan):
+
+{% embed url="https://www.tecmint.com/setup-ipsec-vpn-with-strongswan-on-debian-ubuntu/" %}
+Terminologies
+{% endembed %}
+
+{% embed url="https://www.gypthecat.com/ipsec-vpn-host-to-host-on-ubuntu-14-04-with-strongswan" %}
+Minimal host to host configuration
+{% endembed %}
+
