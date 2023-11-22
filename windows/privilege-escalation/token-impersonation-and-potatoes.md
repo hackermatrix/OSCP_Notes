@@ -15,6 +15,10 @@ There are two types of tokens:
 
 #### RESOURCES:
 
+{% embed url="https://hideandsec.sh/books/windows-sNL/page/in-the-potato-family-i-want-them-all#bkmrk-hot-potato" %}
+Really  Good Explaination&#x20;
+{% endembed %}
+
 {% embed url="https://infinitelogins.com/2020/12/09/windows-privilege-escalation-abusing-seimpersonateprivilege-juicy-potato/?source=post_page-----e5896b20d505--------------------------------" %}
 
 {% embed url="https://medium.com/r3d-buck3t/impersonating-privileges-with-juicy-potato-e5896b20d505" %}
