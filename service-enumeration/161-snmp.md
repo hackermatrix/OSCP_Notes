@@ -10,7 +10,7 @@
 
     OIDs uniquely identify managed objects in a MIB hierarchy
 
-## SNMPwalk
+## 1. SNMPwalk
 
 SNMPwalk is a great tool to query MIB values to retrieve information about managed devices, but, as a minimum, **it requires a valid SNMP read-only community string.**
 
@@ -24,7 +24,7 @@ snmpwalk -c public -v2c <target-ip>
 # here -c stands for community string and 2c is most common version found on today's snmp devices
 ```
 
-## SNMPcheck
+## 2. SNMPcheck
 
 Same as `snmpwalk` but give nice output
 
@@ -32,7 +32,7 @@ Same as `snmpwalk` but give nice output
 snmpcheck -t 192.168.1.X -c public
 ```
 
-## Brute forcing community string
+## 3. Brute forcing community string
 
 ### OneSixtyOne
 
@@ -50,13 +50,13 @@ onesixtyone -c dict.txt <ip>
 /usr/share/metasploit-framework/data/wordlists/snmp_default_pass.txt
 ```
 
-## NSE Script
+## 4. NSE Script
 
 ```
 ls -l /usr/share/nmap/scripts/snmp*
 ```
 
-## SNMPv3 Enumeration
+## 5. SNMPv3 Enumeration
 
 ```
 wget https://raw.githubusercontent.com/raesene/TestingScripts/master/snmpv3enum.rb; ./snmpv3e
