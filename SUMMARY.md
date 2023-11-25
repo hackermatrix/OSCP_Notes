@@ -20,6 +20,7 @@
 * [LDAP](service-enumeration/ldap.md)
 * [161 - SNMP](service-enumeration/161-snmp.md)
 * [500 - IKE/IPsec](service-enumeration/500-ike-ipsec.md)
+* [88 - Kerberos](service-enumeration/88-kerberos.md)
 
 ## 🪟 Windows
 
@@ -32,13 +33,15 @@
 
 ## 📁 Active Directory
 
-* [Extra Resources](active-directory/extra-resources.md)
-* [ Credentials Harvesting](active-directory/credentials-harvesting.md)
 * [Post Compro Enum](active-directory/post-compro-enum/README.md)
   * [Power View](active-directory/post-compro-enum/power-view.md)
   * [🔥 Kerberoasting](active-directory/post-compro-enum/kerberoasting.md)
 * [Persistance](active-directory/persistance/README.md)
   * [Persisting Active Directory](active-directory/persistance/persisting-active-directory.md)
+
+***
+
+* [Extra Resources](extra-resources.md)
 
 ## OSINT
 
