@@ -46,3 +46,10 @@
 ## OSINT
 
 * [Resources](osint/resources.md)
+
+## 🕷 WEB
+
+* [Recon](web/recon/README.md)
+  * [GitHub Recon](web/recon/github-recon.md)
+  * [Google Dorks](web/recon/google-dorks.md)
+  * [Certificate Transparency](web/recon/certificate-transparency.md)
