@@ -53,3 +53,5 @@
   * [GitHub Recon](web/recon/github-recon.md)
   * [Google Dorks](web/recon/google-dorks.md)
   * [Certificate Transparency](web/recon/certificate-transparency.md)
+  * [Parameter Discovery](web/recon/parameter-discovery.md)
+* [All Tools:](web/all-tools.md)

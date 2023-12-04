@@ -26,4 +26,5 @@
    1. [github-recon.md](github-recon.md "mention")
    2. [google-dorks.md](google-dorks.md "mention")
 4. Content Discovery
-5. Parameter Discovery
+5. Parameter Discovery:
+   1.
