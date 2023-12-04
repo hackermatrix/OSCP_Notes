@@ -27,6 +27,6 @@
    2. [google-dorks.md](google-dorks.md "mention")
 4. Content Discovery:
    1. Hidden Dirs&#x20;
-   2. AWS Buckets
+   2. [s3-buckets.md](s3-buckets.md "mention")
 5. Parameter Discovery:
    1. [parameter-discovery.md](parameter-discovery.md "mention")
