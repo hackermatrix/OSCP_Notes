@@ -25,6 +25,8 @@
 3. Dorking:
    1. [github-recon.md](github-recon.md "mention")
    2. [google-dorks.md](google-dorks.md "mention")
-4. Content Discovery
+4. Content Discovery:
+   1. Hidden Dirs&#x20;
+   2. AWS Buckets
 5. Parameter Discovery:
-   1.
+   1. [parameter-discovery.md](parameter-discovery.md "mention")

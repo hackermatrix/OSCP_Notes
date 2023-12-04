@@ -50,6 +50,7 @@
 ## 🕷 WEB
 
 * [Recon](web/recon/README.md)
+  * [S3 buckets](web/recon/s3-buckets.md)
   * [GitHub Recon](web/recon/github-recon.md)
   * [Google Dorks](web/recon/google-dorks.md)
   * [Certificate Transparency](web/recon/certificate-transparency.md)
