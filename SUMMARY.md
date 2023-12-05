@@ -55,4 +55,5 @@
   * [Google Dorks](web/recon/google-dorks.md)
   * [Certificate Transparency](web/recon/certificate-transparency.md)
   * [Parameter Discovery](web/recon/parameter-discovery.md)
+  * [Amass](web/recon/amass.md)
 * [All Tools:](web/all-tools.md)
