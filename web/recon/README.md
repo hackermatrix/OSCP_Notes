@@ -5,7 +5,7 @@
    1. **Passive techniques:**
       1. [certificate-transparency.md](certificate-transparency.md "mention")
       2. ASN Discovery
-      3. Search engines (Google & Bing Dorking)
+      3. Search engines (Google & Bing Dorking) -> **Use "Sublist3r" or "Amass"**
       4. DNS aggregators/datasets (Github, Virustotal, DNSdumpster etc)
       5. Subject alternate name (SAN)
       6. Using public datasets
