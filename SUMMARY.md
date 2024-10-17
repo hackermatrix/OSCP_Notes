@@ -2,11 +2,11 @@
 
 * [Introduction](README.md)
 
-## 🕵 Recon
+## 🕵️ Recon
 
 * [Scanning Techniques](recon/scanning-techniques.md)
 
-## 🗃 File Transferring
+## 🗃️ File Transferring
 
 * [Page](file-transferring/page.md)
 
@@ -24,12 +24,13 @@
 
 ## 🪟 Windows
 
-* [👨🔧 Manual Enum (CMD)](windows/windows-enum-cmd.md)
-* [👨💻 Automated Enumeration Scripts](windows/automated-enumeration-scripts.md)
+* [👨‍🔧 Manual Enum (CMD)](windows/windows-enum-cmd.md)
+* [👨‍💻 Automated Enumeration Scripts](windows/automated-enumeration-scripts.md)
 * [🔍 Post Exploitation](windows/post-exploitation.md)
 * [📈 Privilege Escalation](windows/privilege-escalation/README.md)
   * [Runas](windows/privilege-escalation/runas.md)
   * [🥔 Token Impersonation and Potatoes](windows/privilege-escalation/token-impersonation-and-potatoes.md)
+* [Tools](windows/tools.md)
 
 ## 📁 Active Directory
 
@@ -47,7 +48,7 @@
 
 * [Resources](osint/resources.md)
 
-## 🕷 WEB
+## 🕷️ WEB
 
 * [Recon](web/recon/README.md)
   * [S3 buckets](web/recon/s3-buckets.md)
@@ -57,3 +58,4 @@
   * [Parameter Discovery](web/recon/parameter-discovery.md)
   * [Amass](web/recon/amass.md)
 * [All Tools:](web/all-tools.md)
+* [Page 1](web/page-1.md)
