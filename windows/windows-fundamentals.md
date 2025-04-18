@@ -65,15 +65,25 @@ icon: lightbulb-exclamation-on
 
 ## Windows Management Instrumentation (WMI)
 
-* **WMI** is a subsystem of PowerShell that provides system administrators with powerful tools for system monitoring.
-* Some of the uses for WMI are:
-  * Status information for local/remote systems
-  * Configuring security settings on remote machines/applications
-  * Setting and changing user and group permissions
-  * Setting/modifying system properties
-  * Code execution
-  * Scheduling processes
-  * Setting up logging
+*   #### 🛰️ **WMI (Windows Management Instrumentation)**
+
+    **What it is:**\
+    WMI is a Windows feature that allows admins (and attackers!) to **query** and **manage** local or remote systems, including running processes, services, users, etc.
+
+## WinRM( Windows Remote Management)
+
+* **What it is:**\
+  WinRM is Microsoft’s implementation of the WS-Management protocol, enabling remote management using PowerShell.
+
+## 📦 **BITS (Background Intelligent Transfer Service)**
+
+* **What it is:**\
+  BITS is a Windows service that downloads files in the background (like Windows updates).
+
+## **🔐 LSASS (Local Security Authority Subsystem Service)**
+
+* Stores sensitive credentials in memory.
+* Tools like **Mimikatz** dump passwords from LSASS.
 
 ***
 
@@ -88,13 +98,7 @@ icon: lightbulb-exclamation-on
 #### Security Accounts Manager (SAM) and Access Control Entries (ACE):
 
 * **SAM**: SAM grants rights to a network to execute specific processes.
-* **ACE:**The access rights themselves are managed by Access Control Entries (ACE) in Access Control Lists (ACL). The ACLs contain ACEs that define which users, groups, or processes have access to a file or to execute a process, for example.
+* **ACE:**&#x54;he access rights themselves are managed by Access Control Entries (ACE) in Access Control Lists (ACL). The ACLs contain ACEs that define which users, groups, or processes have access to a file or to execute a process, for example.
 * The permissions to access a securable object are given by the security descriptor, classified into two types of ACLs: the `Discretionary Access Control List (DACL)` or `System Access Control List (SACL)`. Every thread and process started or initiated by a user goes through an authorization process. An integral part of this process is access tokens, validated by the Local Security Authority (LSA). In addition to the SID, these access tokens contain other security-relevant information.
 
 ***
-
-### User Account Control (UAC)
-
-* A security feature in Windows to prevent malware from running or manipulating processes that could damage the computer or its contents.
-*
-
