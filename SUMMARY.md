@@ -16,7 +16,7 @@
 
 ## 🌐 Service Enumeration
 
-* [1521 - ORACLE\_DB](service-enumeration/1521-oracle\_db.md)
+* [1521 - ORACLE\_DB](service-enumeration/1521-oracle_db.md)
 * [LDAP](service-enumeration/ldap.md)
 * [161 - SNMP](service-enumeration/161-snmp.md)
 * [500 - IKE/IPsec](service-enumeration/500-ike-ipsec.md)
@@ -59,4 +59,4 @@
   * [Parameter Discovery](web/recon/parameter-discovery.md)
   * [Amass](web/recon/amass.md)
 * [All Tools:](web/all-tools.md)
-* [Page 1](web/page-1.md)
+* [SSRF](web/ssrf.md)
