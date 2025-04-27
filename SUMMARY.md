@@ -60,3 +60,4 @@
   * [Amass](web/recon/amass.md)
 * [All Tools:](web/all-tools.md)
 * [SSRF](web/ssrf.md)
+* [IDOR](web/idor.md)
