@@ -61,3 +61,7 @@
 * [All Tools:](web/all-tools.md)
 * [SSRF](web/ssrf.md)
 * [IDOR](web/idor.md)
+
+## Cracking Passwords
+
+* [Creating Customized Wordlists](cracking-passwords/creating-customized-wordlists.md)
