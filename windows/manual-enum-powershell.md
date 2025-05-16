@@ -42,5 +42,12 @@ Get-History
 # 11. PSReadLine :(It stores the Command Execution History even accross sessions and this History is not cleared even if we use 'Clear-History'
 # Get its Content:
 cat (Get-PSReadlineOption).HistorySavePath
+
+# 12. Get Running Services (May give permission denined when used in WinRM or PS-Session shell but works with RDP )
+Get-CimInstance -ClassName win32_service | Select State | Where-object {$_.State -like 'Running'}
  
+# 13. Get the Permissions on a given file :
+icacls <path_fo_the_file>
+
+# 14.
 ```
