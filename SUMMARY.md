@@ -26,6 +26,7 @@
 
 * [Windows Fundamentals](windows/windows-fundamentals.md)
 * [👨‍🔧 Manual Enum (CMD)](windows/windows-enum-cmd.md)
+* [Manual Enum (PowerShell)](windows/manual-enum-powershell.md)
 * [👨‍💻 Automated Enumeration Scripts](windows/automated-enumeration-scripts.md)
 * [🔍 Post Exploitation](windows/post-exploitation.md)
 * [📈 Privilege Escalation](windows/privilege-escalation/README.md)
