@@ -66,3 +66,7 @@
 ## Cracking Passwords
 
 * [Creating Customized Wordlists](cracking-passwords/creating-customized-wordlists.md)
+
+## 🐧 Linux
+
+* [Manual Enum](linux/manual-enum.md)
